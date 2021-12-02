@@ -5,6 +5,8 @@ from colours import color_list
 tim = t.Turtle()
 t.colormode(255)
 tim.penup()
+tim.hideturtle()
+tim.speed(0)
 tim.setheading(225)
 tim.forward(300)
 tim.setheading(0)
